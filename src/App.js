@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+const Quote = require('inspirational-quotes');
 
-function App() {
+
+function App() 
+{
+  const newQuote = ()=>{
+    window.location.reload(false);
+    document.getElementById('quote-output').textContent = Quote.getQuote().text
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <main>
+        <section className="left-box">
+          <button id="button-output" onClick={newQuote} className="btn-orange">Nieuwe Quote</button>
+        </section>
+        <section className="right-box">
+          <section id="quote-output">{Quote.getRandomQuote()}</section>
+        </section>
+    </main>
     </div>
   );
 }
-
 export default App;
