@@ -18,11 +18,11 @@ function App()
         </section>
         <nav>
             <ul>
-                <li><a href="https://lailaismyname.github.io/ProjectMuziekschool/index.html">Home</a></li>
-                <li><a href="https://lailaismyname.github.io/ProjectMuziekschool/html/overons.html">Over ons</a></li>
-                <li><a href="https://lailaismyname.github.io/ProjectMuziekschool/html/tarieven.html">Tarieven</a></li>
-                <li><a href="https://lailaismyname.github.io/ProjectMuziekschool/html/contact.html">Contact</a></li>
-                <li><a href="https://lailaismyname.github.io/ProjectMuziekschool/html/blog.html">Blog</a></li>
+                <li><a href="https://lailaismyname.github.io/nhaOpdracht/index.html">Home</a></li>
+                <li><a href="https://lailaismyname.github.io/nhaOpdracht/html/overons.html">Over ons</a></li>
+                <li><a href="https://lailaismyname.github.io/nhaOpdracht/html/tarieven.html">Tarieven</a></li>
+                <li><a href="https://lailaismyname.github.io/nhaOpdracht/html/contact.html">Contact</a></li>
+                <li><a href="https://lailaismyname.github.io/nhaOpdracht/html/blog.html">Blog</a></li>
                 <li><a href="https://lailaismyname.github.io/muziekschool/">Motivational</a></li>
             </ul>
         </nav>
